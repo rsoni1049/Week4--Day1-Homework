@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Cliff Adventures - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="contact-header">
+        <div class="header-content">
+            <h1 class="logo">Great Cliff</h1>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="cliff.html">Cliffs</a>
+                <a href="activities.html">Activities</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <main class="main-content">
+            <h1>Contacting Us</h1>
+            <p>
+                You can drop by the visitors information center at the cliff site that you plan on visiting. They are open 7 days a week from 8.00AM to 5.00PM. You can also contact us directly if you need additional information about the Cliffs, Hours of Operations, Facilities or questions about this site using one of the following:
+            </p>
+            
+            <div class="contact-info">
+                <p><strong>Phone:</strong> (800)GCLIFFS</p>
+                <p><strong>Email:</strong> info@greatcliffs.com</p>
+            </div>
+            
+            <hr class="divider">
+            
+            <h2 class="form-title">Contact Form</h2>
+            <form class="contact-form" action="/contact" method="post">
+                <div class="form-group">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+                </div>
+                
+                <div class="form-group radio-group">
+                    <label>How should we contact you?</label>
+                    <div class="radio-options">
+                        <label>
+                            <input type="radio" name="contact-method" value="email" checked>
+                            <span class="radio-label">Email</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="contact-method" value="phone">
+                            <span class="radio-label">Phone</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cliff">Which Cliff are you inquiring?</label>
+                    <select id="cliff" name="cliff">
+                        <option value="west">West Cliff</option>
+                        <option value="north">North Cliff</option>
+                        <option value="east">East Cliff</option>
+                        <option value="south">South Cliff</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="hear-about">How did you hear about us:</label>
+                    <select id="hear-about" name="hear-about">
+                        <option value="">Select an option</option>
+                        <option value="friend">Friend/Family</option>
+                        <option value="internet">Internet Search</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <!-- Random Codes Section Added Here -->
+                <div class="randomcode">
+                    <input type="text" name="randomcode" placeholder="Enter characters">
+                    <p id="codes"></p>
+                </div>
+                
+                <button type="submit" class="submit-btn">Inquire</button>
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <div id="nondisclaimer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+                <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+                <a href="#" class="fa fa-instagram" aria-label="Instagram"></a>
+            </div>
+        </div>
+        <div id="disclaimer">
+            <p>&copy; Copyright 2023 :: GreatCliffs.com</p>
+            <p class="credits">Designed by Great Cliff's Team</p>
+        </div>
+    </footer>
+</body>
+</html>
