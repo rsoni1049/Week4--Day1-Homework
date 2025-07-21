@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="/randomcodes.js"></script>
 <body>
     <header class="contact-header">
         <div class="header-content">
@@ -87,15 +88,21 @@
                 </div>
                 
                 <!-- Random Codes Section Added Here -->
-                <div class="randomcode">
-                    <input type="text" name="randomcode" placeholder="Enter characters">
-                    <p id="codes"></p>
-                </div>
+<div class="form-group">
+    <label>Verification Code:</label>
+    <div class="verification-code">
+        <div id="codes" class="code-display"></div>
+        <input type="text" name="randomcode" id="randomcode" placeholder="Enter the code above" required>
+    </div>
+</div>
                 
                 <button type="submit" class="submit-btn">Inquire</button>
             </form>
         </main>
     </div>
+    <!-- Add this right before the submit button in your contact form -->
+
+<button type="submit" class="submit-btn" id="submitBtn">Inquire</button>
 
     <footer>
         <div id="nondisclaimer">

@@ -815,3 +815,28 @@ footer {
         margin: 0 auto;
         border-radius: 8px;
     }
+
+    /* Verification Code Styles */
+.verification-code {
+    margin: 15px 0;
+}
+
+.code-display {
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-family: monospace;
+    border: 1px solid #ddd;
+}
+
+#randomcode {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
